@@ -1,17 +1,17 @@
 install:
-	#install commands
-			pip install -r requirements.txt
+	pip install -r requirements.txt
 
-formats:
-	#format code
+format:
+	
+	black *.py mylib/*.py
 
 lint:
-	#flake8 or #pylint
+	# flake8 or #pylint
 
 test:
-	#test
+	# test
 
 deploy:
-	#deploy
+	# deploy
 
 all: install lint test deploy 
